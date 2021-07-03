@@ -4,9 +4,9 @@ const containerWithImages = document.querySelector('.container')
 let selectedImage;
 
 containerWithImages.addEventListener("click", function(event) {
-    let target = event.target; // где был клик?
+    let target = event.target;
 
-    if (target.parentNode.classList.contains('image') === false) { return; }; // не на image? тогда не интересует
+    if (target.parentNode.classList.contains('image') === false) { return; };
 
     highlightAndZoom(target)
 });
