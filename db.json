@@ -1,0 +1,136 @@
+{
+  "cars": [
+    {
+      "car": "BMW",
+      "model": "5 series",
+      "year": "2018",
+      "price": "20000",
+      "image": "images/bmw.jpeg",
+      "saleDate": "Sep 30, 2021 00:00:00",
+      "currentBid": "373",
+      "lastBidder": "123123@mail.ru",
+      "id": 1
+    },
+    {
+      "car": "Audi",
+      "model": "A6",
+      "year": "2018",
+      "price": "24999",
+      "image": "images/audi.jpeg",
+      "saleDate": "Sep 9, 2021 00:00:00",
+      "currentBid": "2571",
+      "lastBidder": "chrome2@gmail.com",
+      "id": 2
+    },
+    {
+      "car": "Mercedes-Benz",
+      "model": "E class",
+      "year": "2016",
+      "price": "15000",
+      "image": "images/mercedes.jpg",
+      "saleDate": "Aug 18, 2021 00:00:00",
+      "currentBid": "2838",
+      "lastBidder": "chrome2@gmail.com",
+      "id": 3
+    },
+    {
+      "car": "Jaguar",
+      "model": "F-type",
+      "year": "2020",
+      "price": "55000",
+      "image": "images/jaguar.jpeg",
+      "saleDate": "Oct 3, 2021 00:00:00",
+      "currentBid": "10000",
+      "lastBidder": "user@mail.ru",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "car": "Porsche",
+      "model": "911",
+      "year": "2020",
+      "price": "64000",
+      "image": "images/porsche.jpeg",
+      "saleDate": "Sep 12, 2021 00:00:00",
+      "lastBidder": "user@mail.ru",
+      "currentBid": "2000"
+    },
+    {
+      "id": 6,
+      "car": "Range Rover",
+      "model": "Sport",
+      "year": "2019",
+      "price": "38000",
+      "image": "images/rangerover.jpeg",
+      "saleDate": "Sep 4, 2021 00:00:00",
+      "lastBidder": "user@mail.ru",
+      "currentBid": "1220"
+    },
+    {
+      "car": "Mercedes",
+      "model": "E class",
+      "year": "2018",
+      "price": "21000",
+      "image": "https://imgd.aeplcdn.com/0x0/n/cw/ec/47336/e-class-exterior-right-front-three-quarter.jpeg",
+      "saleDate": "2021-10-22",
+      "id": 7,
+      "lastBidder": "user@mail.ru",
+      "currentBid": "2000"
+    },
+    {
+      "car": "Ferrari",
+      "model": "360",
+      "year": "2009",
+      "price": "120000",
+      "image": "https://www.coolclassicclub.com/wp-content/uploads/2020/06/Ferrari-360-Modena-rood-4930.jpg",
+      "saleDate": "2021-08-26",
+      "currentBid": "151",
+      "lastBidder": "user@mail.ru",
+      "id": 8
+    },
+    {
+      "car": "Ferrari",
+      "model": "360",
+      "year": "2009",
+      "price": "120000",
+      "image": "./images/default.jpeg",
+      "saleDate": "2021-08-18",
+      "currentBid": "151",
+      "lastBidder": "123123@mail.ru",
+      "id": 9
+    },
+    {
+      "car": "123",
+      "model": "123",
+      "year": "123",
+      "price": "123",
+      "image": "./images/default.jpeg",
+      "saleDate": "2021-08-27",
+      "currentBid": "1",
+      "lastBidder": "Be the first to bid!",
+      "id": 10
+    },
+    {
+      "car": "123",
+      "model": "123",
+      "year": "123",
+      "price": "123",
+      "image": "./images/default.jpeg",
+      "saleDate": "2021-08-05",
+      "currentBid": "1",
+      "lastBidder": "Be the first to bid!",
+      "id": 11
+    },
+    {
+      "car": "132",
+      "model": "123",
+      "year": "312",
+      "price": "3231",
+      "image": "./images/default.jpeg",
+      "saleDate": "0123-03-12",
+      "currentBid": "1",
+      "lastBidder": "Be the first to bid!",
+      "id": 12
+    }
+  ]
+}

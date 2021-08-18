@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<h1>Add Car Page</h1>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <span class="navbar-brand">Navigation:</span>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./add-car-page.html">Add new car</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<br>
+<br>
+<br>
+
+<form id="carForm">
+    <div class="row">
+        <div class="col">
+            <label for="carBrand">Car brand</label>
+            <input class="form" id="carBrand" required>
+        </div>
+        <div class="col">
+            <label for="carModel">Model</label>
+            <input class="form" id="carModel" required>
+        </div>
+        <div class="col">
+            <label for="carYear">Manufacture year</label>
+            <input class="form" id="carYear" required>
+        </div>
+        <div class="col">
+            <label for="carPrice">Price</label>
+            <input class="form" id="carPrice" required>
+        </div>
+        <div class="col">
+            <label for="carImage">Link to image</label>
+            <input type="text" class="form-control-file" id="carImage">
+        </div>
+        <div class="col">
+            <label for="carDate">Sale date</label>
+            <input type="date" class="form-control-file" id="carDate" required>
+        </div>
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Submit new car</button>
+        </div>
+    </div>
+</form>
+
+
+
+
+
+</body>
+<script src="./js/postNewCar.js"></script>
+</html>
